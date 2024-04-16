@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/423.c3f2b310.chunk.js","mappings":"0JAMA,UANA,WACI,OACIA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,eAEb,C","sources":["pages/ReportsPage.jsx"],"sourcesContent":["function ReportsPage () {\r\n    return (\r\n        <div>ReportsPage</div>\r\n    )\r\n};\r\n\r\nexport default ReportsPage;"],"names":["_jsx","children"],"sourceRoot":""}
