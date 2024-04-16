@@ -65,7 +65,6 @@ input[type="radio"] {
   }
 
   .container {
-    margin: 0 auto;
     max-width: 320px;
 
 
