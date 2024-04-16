@@ -1,16 +1,25 @@
+import { lazy } from "react";
+import { Route, Routes } from 'react-router-dom';
+
+const HomePage = lazy(() => import('pages/HomePage'));
+const NotFoundPage = lazy(() => import('pages/NotFoundPage'));
+const AuthPage = lazy(() => import('pages/AuthPage'));
+const DashboardPage = lazy(() => import('pages/DashboardPage'));
+const ReportsPage = lazy(() => import('pages/ReportsPage'));
+const SharedLayout = lazy(() => import('pages/SharedLayout'));
+
+
+
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+<Routes>
+  <Route path='/' element={<SharedLayout/>}/>
+  <Route index element={<HomePage/>}/>
+  <Route path='/register' element={<AuthPage/>}/>
+  <Route path='/dashboard' element={<DashboardPage/>}/>
+  <Route path='/reports' element={<ReportsPage/>}/>
+  <Route path="*" element={<NotFoundPage />} />
+</Routes>
   );
 };
