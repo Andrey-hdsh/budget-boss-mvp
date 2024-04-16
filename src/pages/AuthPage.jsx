@@ -1,7 +1,5 @@
-function AuthPage () {
-    return (
-        <div>AuthPage </div>
-    )
-};
+function AuthPage() {
+  return <div style={{ color: 'white' }}>AuthPage </div>;
+}
 
 export default AuthPage;

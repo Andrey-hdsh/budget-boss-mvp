@@ -1,7 +1,5 @@
-function NotFoundPage () {
-    return (
-        <div>NotFoundPage</div>
-    )
-};
+function NotFoundPage() {
+  return <div style={{ color: 'white' }}>NotFoundPage</div>;
+}
 
 export default NotFoundPage;
