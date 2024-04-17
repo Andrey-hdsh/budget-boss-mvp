@@ -1,4 +1,3 @@
-import { GlobalStyle } from 'components/GlobalStyle';
 import { Header } from 'components/Header/Header';
 import { Loader } from 'components/Loader/Loader';
 import React, { Suspense } from 'react';
@@ -13,7 +12,6 @@ export const AppLayout = () => {
           <Outlet />
         </Suspense>
       </main>
-      <GlobalStyle />
     </>
   );
 };
