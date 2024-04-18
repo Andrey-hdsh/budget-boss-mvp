@@ -8,7 +8,7 @@ import { GlobalStyle } from './GlobalStyle';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/budget-boss-mvp.">
+    <BrowserRouter basename="/budget-boss-mvp">
       <Provider store={store}>
         <App />
       </Provider>
