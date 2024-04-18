@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/budget-boss-mvp./static/css/main.cd2e038f.css",
-    "main.js": "/budget-boss-mvp./static/js/main.5174ff91.js",
-    "static/js/983.b608e9de.chunk.js": "/budget-boss-mvp./static/js/983.b608e9de.chunk.js",
-    "static/js/520.af4b79d3.chunk.js": "/budget-boss-mvp./static/js/520.af4b79d3.chunk.js",
-    "static/js/923.762a696f.chunk.js": "/budget-boss-mvp./static/js/923.762a696f.chunk.js",
-    "static/js/469.90ebeac4.chunk.js": "/budget-boss-mvp./static/js/469.90ebeac4.chunk.js",
-    "static/js/423.e8a64cb7.chunk.js": "/budget-boss-mvp./static/js/423.e8a64cb7.chunk.js",
-    "static/js/818.f3b19420.chunk.js": "/budget-boss-mvp./static/js/818.f3b19420.chunk.js",
-    "index.html": "/budget-boss-mvp./index.html",
-    "main.cd2e038f.css.map": "/budget-boss-mvp./static/css/main.cd2e038f.css.map",
-    "main.5174ff91.js.map": "/budget-boss-mvp./static/js/main.5174ff91.js.map",
-    "983.b608e9de.chunk.js.map": "/budget-boss-mvp./static/js/983.b608e9de.chunk.js.map",
-    "520.af4b79d3.chunk.js.map": "/budget-boss-mvp./static/js/520.af4b79d3.chunk.js.map",
-    "923.762a696f.chunk.js.map": "/budget-boss-mvp./static/js/923.762a696f.chunk.js.map",
-    "469.90ebeac4.chunk.js.map": "/budget-boss-mvp./static/js/469.90ebeac4.chunk.js.map",
-    "423.e8a64cb7.chunk.js.map": "/budget-boss-mvp./static/js/423.e8a64cb7.chunk.js.map",
-    "818.f3b19420.chunk.js.map": "/budget-boss-mvp./static/js/818.f3b19420.chunk.js.map"
+    "main.css": "/budget-boss-mvp/static/css/main.cd2e038f.css",
+    "main.js": "/budget-boss-mvp/static/js/main.22a2688e.js",
+    "static/js/983.b608e9de.chunk.js": "/budget-boss-mvp/static/js/983.b608e9de.chunk.js",
+    "static/js/520.af4b79d3.chunk.js": "/budget-boss-mvp/static/js/520.af4b79d3.chunk.js",
+    "static/js/923.762a696f.chunk.js": "/budget-boss-mvp/static/js/923.762a696f.chunk.js",
+    "static/js/469.90ebeac4.chunk.js": "/budget-boss-mvp/static/js/469.90ebeac4.chunk.js",
+    "static/js/423.e8a64cb7.chunk.js": "/budget-boss-mvp/static/js/423.e8a64cb7.chunk.js",
+    "static/js/818.f3b19420.chunk.js": "/budget-boss-mvp/static/js/818.f3b19420.chunk.js",
+    "index.html": "/budget-boss-mvp/index.html",
+    "main.cd2e038f.css.map": "/budget-boss-mvp/static/css/main.cd2e038f.css.map",
+    "main.22a2688e.js.map": "/budget-boss-mvp/static/js/main.22a2688e.js.map",
+    "983.b608e9de.chunk.js.map": "/budget-boss-mvp/static/js/983.b608e9de.chunk.js.map",
+    "520.af4b79d3.chunk.js.map": "/budget-boss-mvp/static/js/520.af4b79d3.chunk.js.map",
+    "923.762a696f.chunk.js.map": "/budget-boss-mvp/static/js/923.762a696f.chunk.js.map",
+    "469.90ebeac4.chunk.js.map": "/budget-boss-mvp/static/js/469.90ebeac4.chunk.js.map",
+    "423.e8a64cb7.chunk.js.map": "/budget-boss-mvp/static/js/423.e8a64cb7.chunk.js.map",
+    "818.f3b19420.chunk.js.map": "/budget-boss-mvp/static/js/818.f3b19420.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd2e038f.css",
-    "static/js/main.5174ff91.js"
+    "static/js/main.22a2688e.js"
   ]
 }
