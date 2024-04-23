@@ -14,12 +14,13 @@ const SharedLayout = lazy(() => import('pages/SharedLayout'));
 export const App = () => {
   return (
 <Routes>
-  <Route path='/' element={<SharedLayout/>}/>
-  <Route index element={<HomePage/>}/>
+<Route path="/" element={<SharedLayout/>}>
+<Route index element={<HomePage/>}/>
   <Route path='/register' element={<AuthPage/>}/>
   <Route path='/dashboard' element={<DashboardPage/>}/>
   <Route path='/reports' element={<ReportsPage/>}/>
   <Route path="*" element={<NotFoundPage />} />
+</Route>
 </Routes>
   );
 };
