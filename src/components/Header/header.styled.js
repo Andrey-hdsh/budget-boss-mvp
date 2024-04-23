@@ -86,6 +86,9 @@ export const ExitButton = styled.button`
   align-items: center;
   text-decoration: none;
   color: inherit;
+  background: transparent;
+  border: none;
+  padding: 0;
 `;
 
 export const TextExitButton = styled(Link)`
