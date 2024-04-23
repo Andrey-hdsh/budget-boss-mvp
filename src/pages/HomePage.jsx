@@ -1,5 +1,13 @@
-function HomePage() {
-  return <div style={{ color: 'white' }}>HOME PAGE</div>;
+import { Icon } from 'components/Icon';
+
+import { LoginForm } from 'components/LoginForm/LoginForm';
+
+function AuthPage() {
+  return (
+    <>
+      <LoginForm />
+    </>
+  );
 }
 
-export default HomePage;
+export default AuthPage;
