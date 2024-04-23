@@ -1,5 +1,5 @@
 export const Loader = () => {
     return (
-        <dev>Loader...</dev>
+        <div>Loader...</div>
     )
 };
