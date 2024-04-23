@@ -75,7 +75,7 @@ export const Header = () => {
           {!isMobile && <p>User Name</p>}
           {isMobile ? (
             <ExitButton type="button" onClick={handleOpenModal}>
-              <Icon width={16} height={16} iconid={'icon-logout'} />
+              <Icon width={16} height={16} iconid='icon-logout' />
             </ExitButton>
           ) : (
             <>
