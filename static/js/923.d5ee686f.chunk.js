@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[923],{923:function(e,t,r){r.r(t);var c=r(4809),h=r(184);t.default=function(){return(0,h.jsxs)(h.Fragment,{children:[(0,h.jsx)("div",{style:{color:"white"},children:"AuthPage "}),(0,h.jsx)(c.J,{width:81,height:20,iconid:"icon-Group-25"})]})}}}]);
+//# sourceMappingURL=923.d5ee686f.chunk.js.map
