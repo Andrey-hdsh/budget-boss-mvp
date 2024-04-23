@@ -72,5 +72,10 @@
 <path fill="#ffc107" style="fill: var(--color8, #ffc107)" d="M5.34 16c0 1.195 0.221 2.336 0.621 3.381l-4.26 3.060c-0.927-1.938-1.448-4.125-1.448-6.44 0-2.524 0.619-4.895 1.707-6.958l4.172 3.16c-0.509 1.155-0.793 2.442-0.793 3.798z"></path>
 <path fill="#ffb300" style="fill: var(--color9, #ffb300)" d="M4.706 20.283l1.256-0.902c-0.401-1.045-0.621-2.186-0.621-3.381 0-1.356 0.284-2.643 0.793-3.798l-1.205-0.912c-0.782 1.354-1.236 2.942-1.247 4.647-0.010 1.572 0.362 3.053 1.024 4.346z"></path>
 </symbol>
+<symbol id="icon-plus" viewBox="0 0 32 32">
+<path fill="#42a652" style="fill: var(--color9, #42a652)" d="M16 0c8.837 0 16 7.163 16 16s-7.163 16-16 16c-8.837 0-16-7.163-16-16s7.163-16 16-16z"></path>
+<path fill="none" stroke="#f6f7fb" style="stroke: var(--color3, #f6f7fb)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M16 8v16"></path>
+<path fill="none" stroke="#f6f7fb" style="stroke: var(--color3, #f6f7fb)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M8 16h16"></path>
+</symbol>
 </defs>
 </svg>
