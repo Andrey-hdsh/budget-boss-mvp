@@ -8,29 +8,27 @@ import {
   RegisterBtn,
 } from './LoginForm.styled';
 
-export const LoginForm = ({ errors, register }) => {
+export const LoginForm = () => {
   return (
-    <div>
-      <FormWrapper>
-        <form>
-          <div>
-            <Label>Email:</Label>
+    <FormWrapper>
+      <form>
+        <div>
+          <Label>Email:</Label>
 
-            <InputEmail type="email" placeholder="Email" />
-          </div>
-          <div>
-            <Label>Password:</Label>
+          <InputEmail type="email" placeholder="Email" />
+        </div>
+        <div>
+          <Label>Password:</Label>
 
-            <InputPassword type="password" placeholder="Password" />
-          </div>
-          <LogInBtn name="Log in" type="submit">
-            Log in
-          </LogInBtn>
-          <RegisterBtn name="Registration" type="submit">
-            Registration
-          </RegisterBtn>
-        </form>
-      </FormWrapper>
-    </div>
+          <InputPassword type="password" placeholder="Password" />
+        </div>
+        <LogInBtn name="Log in" type="submit">
+          Log in
+        </LogInBtn>
+        <RegisterBtn name="Registration" type="submit">
+          Registration
+        </RegisterBtn>
+      </form>
+    </FormWrapper>
   );
 };

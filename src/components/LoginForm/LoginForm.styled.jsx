@@ -2,15 +2,13 @@ import styled from 'styled-components';
 
 export const FormWrapper = styled.div`
   display: flex;
-  /* margin-top: 12px; */
-  justify-content: center;
-  align-items: center;
-  background-repeat: no-repeat;
-  height: 94vh;
-  height: calc(var(--vh, 1vh) * 94);
-  /* overflow:hidden; */
+  margin: 20px;
+  margin-top: 12px;
 
-  @media screen and (min-width: 768px) {
+  background-color: #383847;
+  border-radius: 16px;
+  box-shadow: 0px 2px 14px 0px rgba(132, 132, 132, 0.2) inset;
+  backgroundcolor: @media screen and (min-width: 768px) {
     background-position: top center;
     padding-top: 294px;
   }
