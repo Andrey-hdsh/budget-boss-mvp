@@ -2,13 +2,15 @@ import styled from 'styled-components';
 
 export const FormWrapper = styled.div`
   display: flex;
-  margin: 20px;
-  margin-top: 12px;
+  /* margin-top: 12px; */
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 94vh;
+  height: calc(var(--vh, 1vh) * 94);
+  /* overflow:hidden; */
 
-  background-color: #383847;
-  border-radius: 16px;
-  box-shadow: 0px 2px 14px 0px rgba(132, 132, 132, 0.2) inset;
-  backgroundcolor: @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     background-position: top center;
     padding-top: 294px;
   }
@@ -40,7 +42,7 @@ export const Form = styled.form`
   height: 500px;
   border-radius: 16px;
   padding: 32px 20px;
-  background-color: var(--grey47);
+  background-color: #383847;
   box-shadow: 0px 2px 14px 0px rgba(132, 132, 132, 0.2) inset;
 
   @media screen and (min-width: 768px) {
@@ -57,7 +59,7 @@ export const Form = styled.form`
 `;
 
 export const Span = styled.span`
-  color: var(--red);
+  color: red;
 `;
 
 export const RequiredP = styled.p`
@@ -67,14 +69,14 @@ export const RequiredP = styled.p`
   padding-left: 8px;
   margin-bottom: 8px;
   letter-spacing: 0.4px;
-  color: var(--red);
+  color: red;
 `;
 export const Label = styled.label`
   font-size: 12px;
   font-weight: 400;
   padding-left: 8px;
   letter-spacing: 0.48px;
-  color: var(--text-color);
+  color: white;
 `;
 
 export const InputEmail = styled.input`
@@ -122,7 +124,7 @@ export const LogInBtn = styled.button`
   padding: 15px 38px;
   border-radius: 16px;
   letter-spacing: 0.24px;
-  background-color: var(--button);
+  background-color: #42a652;
   box-shadow: 1px 3px 5px 0px rgba(96, 196, 112, 0.35);
   color: #fff;
 
@@ -145,8 +147,8 @@ export const RegisterBtn = styled.button`
   padding: 15px 13px;
   border-radius: 16px;
   letter-spacing: 0.24px;
-  color: var(--background);
-  background-color: var(--text-color);
+  color: black;
+  background-color: white;
   box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
 
   @media screen and (min-width: 768px) {

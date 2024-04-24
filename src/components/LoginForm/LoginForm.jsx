@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   FormWrapper,
+  Form,
   Label,
   InputEmail,
   InputPassword,
@@ -11,7 +12,7 @@ import {
 export const LoginForm = () => {
   return (
     <FormWrapper>
-      <form>
+      <Form>
         <div>
           <Label>Email:</Label>
 
@@ -28,7 +29,7 @@ export const LoginForm = () => {
         <RegisterBtn name="Registration" type="submit">
           Registration
         </RegisterBtn>
-      </form>
+      </Form>
     </FormWrapper>
   );
 };
