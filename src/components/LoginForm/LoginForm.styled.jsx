@@ -2,13 +2,12 @@ import styled from 'styled-components';
 
 export const FormWrapper = styled.div`
   display: flex;
-  /* margin-top: 12px; */
+
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
   height: 94vh;
-  height: calc(var(--vh, 1vh) * 94);
-  /* overflow:hidden; */
+  min-height: 94vh;
 
   @media screen and (min-width: 768px) {
     background-position: top center;
