@@ -8,9 +8,11 @@ export const GlobalStyle = createGlobalStyle`
   --white-color-first: #F6F7FB;
   --white-color-second: #C7CCDC;
   --white-color-third: #FFFFFF;
+  --white-button: #F5F6FB;
   --grey: #474759;
   --red-color: #FE4566;
   --green-color: #60C470;
+  --green-button: #42A652;
   --gradient-green-color: #B0E8B9;
     --grey-color: #383847;
     --gradient-grey-color: #2D2D38;
