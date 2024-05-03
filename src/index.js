@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
 import { GlobalStyle } from './GlobalStyle';
+import { GlobalStylesDatepicker } from 'components/Datepicker/stylesDatepicker';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -14,5 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </Provider>
     </BrowserRouter>
     <GlobalStyle />
+    <GlobalStylesDatepicker/>
   </React.StrictMode>
 );

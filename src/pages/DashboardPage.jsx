@@ -1,8 +1,9 @@
-import { Datepicker } from "components/Datepicker/Datepicker";
+import { MyDatepicker } from "components/Datepicker/Datepicker";
 
 function DashboardPage() {
   return <div style={{ color: 'white' }}>DashboardPage
-  <Datepicker/>
+  <button>Datepicker button</button>
+  <MyDatepicker/>
   </div>;
 }
 
