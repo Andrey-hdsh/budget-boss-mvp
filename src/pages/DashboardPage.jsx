@@ -1,4 +1,5 @@
-import { AddFormDashboard } from 'components/AddFormDashboard/AddFormDashboard';
+import { AddTransactionForm } from 'components/AddTransactionForm/AddTransactionForm';
+import { Balance } from 'components/Balance/Balance';
 import { Icon } from 'components/Icon';
 import { SummaryListDashboard } from 'components/SummaryListDashboard/SummaryListDashboard';
 import { TableDashboard } from 'components/TableDashboard/TableDashboard';
@@ -8,18 +9,14 @@ function DashboardPage() {
   return (
     <div>
       <div>
-        <div>
-          <p>Balance</p>
-          <input type="text" />
-          <button>CONFIRM</button>
-        </div>
+        <Balance />
         <Link to="/reports">
           <Icon />
           <p>Reports</p>
         </Link>
       </div>
       <div>
-        <AddFormDashboard />
+        <AddTransactionForm />
         <div>
           <TableDashboard />
           <SummaryListDashboard />
