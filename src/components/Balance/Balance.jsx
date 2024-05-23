@@ -1,9 +1,13 @@
+import { Button, Container, Input, Text } from "./Balance.styled";
+
 export const Balance = () => {
     return (
         <div>
-          <p>Balance</p>
-          <input type="text" />
-          <button type='submit'>CONFIRM</button>
+          <Text>Balance</Text>
+          <Container>
+          <Input type="text" placeholder="00.00 UAH" />
+          <Button type='submit'>CONFIRM</Button>
+          </Container>
         </div>
     );
   };

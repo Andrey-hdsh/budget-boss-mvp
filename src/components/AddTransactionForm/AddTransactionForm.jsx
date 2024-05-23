@@ -1,3 +1,6 @@
+import { Icon } from 'components/Icon';
+import { Button, Text } from './AddTransactionForm.styled';
+
 const incomeCategories = [
   "Salary",
   "Additional income"
@@ -24,12 +27,18 @@ export const AddTransactionForm = () => {
   const categories = isExpense ? expenseCategories : incomeCategories;
 
   return (
-    <div>
-      <input name='description' placeholder="Description" />
-      <select name='category'>
-      <option value="" disabled selected key='placeholder'>Category</option>
-{categories.map(category => <option key={category}>{category}</option>)}
-      </select>
-    </div>
+    <>
+    <Button>
+    <Icon iconid={'icon-plus'} width={24} height={24} />
+    <Text>add transaction</Text>
+  </Button>
+  </>
+//     <div>
+//       <input name='description' placeholder="Description" />
+//       <select name='category'>
+//       <option value="" disabled selected key='placeholder'>Category</option>
+// {categories.map(category => <option key={category}>{category}</option>)}
+//       </select>
+//     </div>
   );
 };
